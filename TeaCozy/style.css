@@ -1,0 +1,134 @@
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+}
+
+header {
+  display: flex;
+  position: fixed;
+  border-bottom: 1px solid seashell;
+  height: 69px;
+  z-index: 1;
+  width: 100%;
+  align-items: center;
+  background-color: black;
+}
+
+.logo {
+  display: flex;
+  flex-grow: 1;
+  padding-left: 10px;
+  height: 50px;
+  align-items: center;
+}
+
+header nav {
+  padding-right: 20px;
+}
+
+nav span {
+  text-decoration: underline;
+  display: inline-block;
+  padding: 20px 10px;
+}
+
+div {
+  display: block;
+}
+
+.nav {
+  display: block;
+}
+
+.content1 {
+  display: flex;
+  padding-top: 70px;
+  justify-content: center;
+}
+
+.mission {
+  display: flex;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+  height: 700px;
+  width: 1200px;
+  align-items: center;
+}
+
+.missiontext {
+  background-color: black;
+  align-items: center;
+  width: 1200px;
+}
+
+h2 h4 {
+  display: block;
+}
+
+.content2 {
+  height: 700px;
+  width: 1000px;
+  margin: auto;
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+.piccontainer {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.pic img{
+  height: 200px;
+  margin: 10px;
+  display: block;
+}
+
+.pic {
+  padding: 5px;
+}
+
+#locations {
+  height: 500px;
+  padding-top: 70px;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+}
+
+#locations .flex-container {
+  margin: auto;
+  width: 1100px;
+}
+
+.flex-container.locations {
+  padding-top: 5px;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.location {
+  opacity: 1.0;
+  padding: 10px;
+  margin: 5px 20px;
+  background-color: black;
+  flex-basis: 280px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#contact {
+  height: 200px;
+}
+
+footer {
+  text-align: left;
+  padding-left: 20px;
+}
